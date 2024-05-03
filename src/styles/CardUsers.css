@@ -1,0 +1,52 @@
+.card__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card__title {
+  color: rgb(2, 2, 39);
+}
+
+.card__label {
+  display: block;
+  margin: 0.5rem;
+  opacity: 0.5;
+}
+
+.card__value {
+  display: flex;
+  align-content: center;
+}
+
+.card__hr {
+  margin: 1rem 0;
+  opacity: 50%;
+}
+
+.card__btn__content {
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  gap: 0.5rem;
+}
+.card__btn__img {
+  width: 2rem;
+  padding-top: 0.3rem;
+}
+
+.card__img__birthday {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
