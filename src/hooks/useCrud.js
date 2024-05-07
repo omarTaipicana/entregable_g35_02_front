@@ -54,7 +54,7 @@ const useCrud = (BASEURL) => {
     console.log(url);
     console.log(data);
     axios
-      .patch(url, data)
+      .put(url, data)
       .then((res) =>
         setResponse(response.map((e) => (e.id === id ? res.data : e)))
       )
